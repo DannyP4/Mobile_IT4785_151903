@@ -6,7 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lifecycle.R
+import com.example.calculator.R
 
 class MainActivity : AppCompatActivity() {
 
