@@ -1,12 +1,12 @@
-package com.example.calculator
+package com.example.lifecycle
 
 import android.os.Bundle
 import android.text.TextUtils
-import android.view.View
+//import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lifecycle.R
+//import com.example.lifecycle.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button21).setOnClickListener { appendDecimal() }
     }
 
-    private fun appendNumber(number: String) {
+    private fun appendNumber (number: String) {
         if (isNewOp) {
             display.setText(number)
             isNewOp = false
