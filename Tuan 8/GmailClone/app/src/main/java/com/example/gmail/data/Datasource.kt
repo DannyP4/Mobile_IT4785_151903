@@ -27,9 +27,7 @@ class Datasource {
             Sender(R.string.sender13),
             Sender(R.string.sender14),
             Sender(R.string.sender15)
-
             )
-
     }
     fun loadTitles(): List<Title>{
         return  listOf<Title>(
@@ -48,9 +46,7 @@ class Datasource {
             Title(R.string.title13),
             Title(R.string.title14),
             Title(R.string.title15)
-
             )
-
     }
     fun loadContents(): List<Content>{
         return listOf<Content>(
@@ -71,7 +67,6 @@ class Datasource {
             Content(R.string.content14),
             Content(R.string.content15)
             )
-
     }
     fun loadTime(): List<Time>{
         return listOf<Time>(
@@ -90,8 +85,6 @@ class Datasource {
             Time(R.string.time13),
             Time(R.string.time14),
             Time(R.string.time15)
-
-
         )
 
     }
@@ -100,22 +93,18 @@ class Datasource {
             Image(R.drawable.img1),
             Image(R.drawable.img3),
             Image(R.drawable.img2),
-            Image(R.drawable.img3),
+            Image(R.drawable.img4),
+            Image(R.drawable.img5),
+            Image(R.drawable.img6),
+            Image(R.drawable.img7),
+            Image(R.drawable.img8),
             Image(R.drawable.img1),
-            Image(R.drawable.img2),
-            Image(R.drawable.img1),
-            Image(R.drawable.img2),
-            Image(R.drawable.img3),
-            Image(R.drawable.img1),
-            Image(R.drawable.img2),
-            Image(R.drawable.img1),
-            Image(R.drawable.img2),
-            Image(R.drawable.img3),
-            Image(R.drawable.img1)
-
-
-
+            Image(R.drawable.img10),
+            Image(R.drawable.img11),
+            Image(R.drawable.img12),
+            Image(R.drawable.img12),
+            Image(R.drawable.img12),
+            Image(R.drawable.img6)
             )
     }
-
 }
