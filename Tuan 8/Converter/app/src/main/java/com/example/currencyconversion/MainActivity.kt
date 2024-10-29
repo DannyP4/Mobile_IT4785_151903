@@ -21,7 +21,13 @@ class MainActivity : AppCompatActivity() {
         Pair("EUR", "USD") to 1.18f,
         Pair("EUR", "VND") to 27000f,
         Pair("VND", "USD") to 0.000043f,
-        Pair("VND", "EUR") to 0.000037f
+        Pair("VND", "EUR") to 0.000037f,
+        Pair("VND", "JPY") to 0.0061f,
+        Pair("JPY", "VND") to 165.16f,
+        Pair("USD", "JPY") to 153.24f,
+        Pair("JPY", "USD") to 0.0065f,
+        Pair("VND", "GBP") to 0.000030f,
+        Pair("GBP", "VND") to 32.904f,
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,7 +44,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupSpinners() {
-        val currencies = arrayOf("USD", "EUR", "VND", "JPY", "GBP")
+        val currencies = arrayOf("USD", "EUR", "VND", "JPY", "GBP", "AUD", "CAD", "CHF", "CNY", "SEK", "NZD", "KRW", "SGD", "NOK", "MXN", "INR", "RUB", "ZAR", "TRY", "BRL", "HKD", "IDR", "MYR", "PHP", "DKK", "CZK", "HUF", "THB", "PLN")
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, currencies)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
