@@ -12,7 +12,7 @@
         android:id="@+id/title_remove"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_red_corner_16"
+        android:background="@drawable/bg_purple_corner_10"
         android:gravity="center"
         android:padding="16dp"
         android:paddingStart="10dp"

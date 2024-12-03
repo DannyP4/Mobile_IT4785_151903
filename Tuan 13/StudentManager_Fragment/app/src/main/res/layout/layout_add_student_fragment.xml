@@ -16,7 +16,7 @@
         android:padding="16dp"
         android:paddingStart="10dp"
         android:text="@string/add_new"
-        android:textColor="#287C00"
+        android:textColor="#0686C1"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

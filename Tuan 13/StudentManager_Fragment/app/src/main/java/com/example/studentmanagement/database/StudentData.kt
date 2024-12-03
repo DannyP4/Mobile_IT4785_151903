@@ -23,6 +23,5 @@ object StudentData {
         StudentModel("Trần Văn Tài", "SV018"),
         StudentModel("Phạm Thị Tuyết", "SV019"),
         StudentModel("Lê Văn Vũ", "SV020")
-
     )
 }

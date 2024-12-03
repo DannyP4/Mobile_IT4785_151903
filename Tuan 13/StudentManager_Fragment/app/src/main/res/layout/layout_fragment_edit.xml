@@ -19,7 +19,7 @@
         android:padding="16dp"
         android:paddingStart="10dp"
         android:text="@string/edit_information"
-        android:textColor="#088C56"
+        android:textColor="#0686C1"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
